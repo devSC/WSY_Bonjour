@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "Bonjour.h"
 #import "HelpRequest.h"
+#import "DDLog.h"
+#import "DDASLLogger.h"
+#import "DDTTYLogger.h"
+
 @interface AppDelegate ()<UIAlertViewDelegate>
 
 @end
@@ -19,6 +23,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     // register for notifications
+    
+    static const int ddLogLevel = LOG_LEVEL_VERBOSE;// 定义日志级别
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];// 初始化DDLog日志输出，在这里，我们仅仅希望在xCode控制台输出
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];// 启用颜色区分
+    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(helpRequestHandler:)
                                                  name:kHelpRequestedNotification

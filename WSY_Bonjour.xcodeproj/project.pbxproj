@@ -21,6 +21,15 @@
 		FE62A5461A45A9BF00BF98BC /* HelpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE62A5411A45A9BF00BF98BC /* HelpRequest.m */; };
 		FE62A5471A45A9BF00BF98BC /* HelpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE62A5431A45A9BF00BF98BC /* HelpResponse.m */; };
 		FE62A5481A45A9BF00BF98BC /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FE62A5451A45A9BF00BF98BC /* Utils.m */; };
+		FEB7E08F1A45C7E500A7B4C8 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7E07D1A45C7E500A7B4C8 /* DDAbstractDatabaseLogger.m */; };
+		FEB7E0901A45C7E500A7B4C8 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7E07F1A45C7E500A7B4C8 /* DDASLLogger.m */; };
+		FEB7E0911A45C7E500A7B4C8 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7E0811A45C7E500A7B4C8 /* DDFileLogger.m */; };
+		FEB7E0921A45C7E500A7B4C8 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7E0841A45C7E500A7B4C8 /* DDLog.m */; };
+		FEB7E0931A45C7E500A7B4C8 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7E0861A45C7E500A7B4C8 /* DDTTYLogger.m */; };
+		FEB7E0941A45C7E500A7B4C8 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7E0891A45C7E500A7B4C8 /* DDContextFilterLogFormatter.m */; };
+		FEB7E0951A45C7E500A7B4C8 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7E08B1A45C7E500A7B4C8 /* DDDispatchQueueLogFormatter.m */; };
+		FEB7E0961A45C7E500A7B4C8 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7E08D1A45C7E500A7B4C8 /* DDMultiFormatter.m */; };
+		FEB7E0971A45C7E500A7B4C8 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FEB7E08E1A45C7E500A7B4C8 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +70,24 @@
 		FE62A5431A45A9BF00BF98BC /* HelpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpResponse.m; sourceTree = "<group>"; };
 		FE62A5441A45A9BF00BF98BC /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		FE62A5451A45A9BF00BF98BC /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		FEB7E07C1A45C7E500A7B4C8 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		FEB7E07D1A45C7E500A7B4C8 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		FEB7E07E1A45C7E500A7B4C8 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		FEB7E07F1A45C7E500A7B4C8 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		FEB7E0801A45C7E500A7B4C8 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		FEB7E0811A45C7E500A7B4C8 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		FEB7E0821A45C7E500A7B4C8 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		FEB7E0831A45C7E500A7B4C8 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		FEB7E0841A45C7E500A7B4C8 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		FEB7E0851A45C7E500A7B4C8 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		FEB7E0861A45C7E500A7B4C8 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		FEB7E0881A45C7E500A7B4C8 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		FEB7E0891A45C7E500A7B4C8 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		FEB7E08A1A45C7E500A7B4C8 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		FEB7E08B1A45C7E500A7B4C8 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		FEB7E08C1A45C7E500A7B4C8 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		FEB7E08D1A45C7E500A7B4C8 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		FEB7E08E1A45C7E500A7B4C8 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +129,7 @@
 		FE62A4E11A45511E00BF98BC /* WSY_Bonjour */ = {
 			isa = PBXGroup;
 			children = (
+				FEB7E07A1A45C7E500A7B4C8 /* Vendor */,
 				FE62A4E61A45511E00BF98BC /* AppDelegate.h */,
 				FE62A4E71A45511E00BF98BC /* AppDelegate.m */,
 				FE62A5181A458B2400BF98BC /* AssociateController.h */,
@@ -176,6 +204,47 @@
 				FE62A5451A45A9BF00BF98BC /* Utils.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FEB7E07A1A45C7E500A7B4C8 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7E07B1A45C7E500A7B4C8 /* CocoaLumberjack */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		FEB7E07B1A45C7E500A7B4C8 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7E07C1A45C7E500A7B4C8 /* DDAbstractDatabaseLogger.h */,
+				FEB7E07D1A45C7E500A7B4C8 /* DDAbstractDatabaseLogger.m */,
+				FEB7E07E1A45C7E500A7B4C8 /* DDASLLogger.h */,
+				FEB7E07F1A45C7E500A7B4C8 /* DDASLLogger.m */,
+				FEB7E0801A45C7E500A7B4C8 /* DDFileLogger.h */,
+				FEB7E0811A45C7E500A7B4C8 /* DDFileLogger.m */,
+				FEB7E0821A45C7E500A7B4C8 /* DDLog+LOGV.h */,
+				FEB7E0831A45C7E500A7B4C8 /* DDLog.h */,
+				FEB7E0841A45C7E500A7B4C8 /* DDLog.m */,
+				FEB7E0851A45C7E500A7B4C8 /* DDTTYLogger.h */,
+				FEB7E0861A45C7E500A7B4C8 /* DDTTYLogger.m */,
+				FEB7E0871A45C7E500A7B4C8 /* Extensions */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		FEB7E0871A45C7E500A7B4C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7E0881A45C7E500A7B4C8 /* DDContextFilterLogFormatter.h */,
+				FEB7E0891A45C7E500A7B4C8 /* DDContextFilterLogFormatter.m */,
+				FEB7E08A1A45C7E500A7B4C8 /* DDDispatchQueueLogFormatter.h */,
+				FEB7E08B1A45C7E500A7B4C8 /* DDDispatchQueueLogFormatter.m */,
+				FEB7E08C1A45C7E500A7B4C8 /* DDMultiFormatter.h */,
+				FEB7E08D1A45C7E500A7B4C8 /* DDMultiFormatter.m */,
+				FEB7E08E1A45C7E500A7B4C8 /* README.txt */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +329,7 @@
 			files = (
 				FE62A4F11A45511E00BF98BC /* Main.storyboard in Resources */,
 				FE62A4F61A45511E00BF98BC /* LaunchScreen.xib in Resources */,
+				FEB7E0971A45C7E500A7B4C8 /* README.txt in Resources */,
 				FE62A4F31A45511E00BF98BC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,13 +348,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB7E0921A45C7E500A7B4C8 /* DDLog.m in Sources */,
+				FEB7E0941A45C7E500A7B4C8 /* DDContextFilterLogFormatter.m in Sources */,
 				FE62A53A1A459EB800BF98BC /* DetailController.m in Sources */,
+				FEB7E0911A45C7E500A7B4C8 /* DDFileLogger.m in Sources */,
 				FE62A5471A45A9BF00BF98BC /* HelpResponse.m in Sources */,
+				FEB7E0951A45C7E500A7B4C8 /* DDDispatchQueueLogFormatter.m in Sources */,
+				FEB7E0961A45C7E500A7B4C8 /* DDMultiFormatter.m in Sources */,
 				FE62A5301A459A2D00BF98BC /* Bonjour.m in Sources */,
+				FEB7E08F1A45C7E500A7B4C8 /* DDAbstractDatabaseLogger.m in Sources */,
+				FEB7E0931A45C7E500A7B4C8 /* DDTTYLogger.m in Sources */,
 				FE62A5481A45A9BF00BF98BC /* Utils.m in Sources */,
 				FE62A5461A45A9BF00BF98BC /* HelpRequest.m in Sources */,
 				FE62A51A1A458B2400BF98BC /* AssociateController.m in Sources */,
 				FE62A4E81A45511E00BF98BC /* AppDelegate.m in Sources */,
+				FEB7E0901A45C7E500A7B4C8 /* DDASLLogger.m in Sources */,
 				FE62A4E51A45511E00BF98BC /* main.m in Sources */,
 				FE62A53E1A45A9B000BF98BC /* BonjourBrowser.m in Sources */,
 				FE62A51D1A458B4200BF98BC /* ConsumerController.m in Sources */,
@@ -478,6 +556,7 @@
 				FE62A5071A45511F00BF98BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE62A5081A45511F00BF98BC /* Build configuration list for PBXNativeTarget "WSY_BonjourTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +565,7 @@
 				FE62A50A1A45511F00BF98BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

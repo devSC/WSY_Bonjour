@@ -9,6 +9,10 @@
 #import "AssociateController.h"
 #import "Bonjour.h"
 
+#import "DDLog.h"
+//static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+
 @interface AssociateController ()<UITextFieldDelegate>{
     UITextField *serviceNameField;
     NSIndexPath *availabilityCellPath;
@@ -58,7 +62,8 @@
 
 #pragma mark - Bonjour Notifications
 - (void)handleBonjourPublishStart:(NSNotification*)notification {
-    NSLog(@"Started publishing");
+//    NSLog(@"Started publishing");
+    DDLogDebug(@"Started publishing");
 }
 
 - (void)handleBonjourPublishSuccess:(NSNotification*)notification {
@@ -70,7 +75,7 @@
 }
 
 - (void)handleBonjourPublishError:(NSNotification*)notification {
-    NSLog(@"Error publishing");
+    DDLogError(@"Error publishing");
 }
 
 - (void)handleBonjourStopSuccess:(NSNotification*)notification {
